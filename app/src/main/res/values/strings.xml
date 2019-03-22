@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">laboratorio_03_00195316</string>
+    <string name="Edit_text_email">Email</string>
+    <string name="Et_2_email">Email</string>
+    <string name="Et_2_nombre">Nombre</string>
+    <string name="Et_3_password">Password</string>
+    <string name="Et_4_gender">Gender</string>
 </resources>
