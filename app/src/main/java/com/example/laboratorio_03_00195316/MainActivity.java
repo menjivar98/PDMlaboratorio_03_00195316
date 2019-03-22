@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent m_intent = new Intent(MainActivity.this,NewActivity.class);
-                m_intent.putExtra(AppConstants.TEXT1_KEY,"name: "+Et1.getText().toString(). +
+                m_intent.putExtra(AppConstants.TEXT1_KEY,"name: "+Et1.getText().toString() +
                                                                 "Email: " + Et2.getText().toString()+
                                                                 "Password: " + Et3.getText().toString() +
                                                                 "Gender: " + Et4.getText().toString());
