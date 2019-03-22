@@ -26,27 +26,25 @@ public class MainActivity extends AppCompatActivity {
         Et3 = findViewById(R.id.Et_3);
         Et4 = findViewById(R.id.Et_4);
 
-
-        Et2.getText().toString();
-        Et3.getText().toString();
-        Et4.getText().toString();
-
-
         m_action_submit = findViewById(R.id.submit_action);
 
 
         ((View) m_action_submit).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
+                JSON j = new JSON(Et1.getText().toString(), Et2.getText().toString(),Et3.getText().toString(),Et4.getText().toString());
+
+                Datos = j.ImprimirJSON();
+
                 Intent m_intent = new Intent(MainActivity.this,NewActivity.class);
-                m_intent.putExtra(AppConstants.TEXT1_KEY,"name: "+Et1.getText().toString() +
-                                                                "Email: " + Et2.getText().toString()+
-                                                                "Password: " + Et3.getText().toString() +
-                                                                "Gender: " + Et4.getText().toString());
+                m_intent.putExtra(AppConstants.TEXT1_KEY,Datos);
                 startActivity(m_intent);
 
             }
         });
 
     }
+
+
 }
