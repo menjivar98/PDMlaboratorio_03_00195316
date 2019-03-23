@@ -2,10 +2,10 @@ package com.example.laboratorio_03_00195316;
 
 public class JSON {
 
-     String nombre;
-     String email;
-     String password;
-     String gender;
+     private String nombre;
+     private String email;
+     private String password;
+     private String gender;
 
     public JSON(String nombre, String email, String password, String gender) {
         this.nombre = nombre;
@@ -47,10 +47,10 @@ public class JSON {
     }
 
     public String ImprimirJSON (){
-        return "{ Nombre: " + nombre + "\n" +
-                "Email: " + email + "\n" +
-                "Password: " + password + "\n" +
-                "Gender: " + gender + "}";
+        return "{ Nombre: " + getNombre() + "\n" +
+                "Email: " + getEmail() + "\n" +
+                "Password: " + getPassword() + "\n" +
+                "Gender: " + getGender() + "}";
     }
 
 }
