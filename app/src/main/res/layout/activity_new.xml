@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="center"
+
     android:orientation="vertical"
     tools:context=".NewActivity">
 
@@ -12,26 +12,30 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/encabezado"
-        android:textSize="25sp" />
+        android:textSize="25sp"
+        android:layout_marginBottom="25dp"/>
 
     <TextView
         android:id="@+id/prueba_text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="Texto Prueba" />
+        android:text="Texto Prueba"
+        android:layout_marginBottom="10dp"/>
 
     <TextView
         android:id="@+id/prueba2_text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
+        android:layout_marginBottom="10dp"
         android:text="Texto Prueba 2" />
 
     <TextView
         android:id="@+id/prueba3_text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
         android:gravity="center"
         android:text="Texto Prueba 3" />
 
@@ -39,15 +43,18 @@
         android:id="@+id/prueba4_text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
         android:gravity="center"
         android:text="Texto Prueba 4" />
 
 
     <Button
-
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"
         android:id="@+id/submit2_action"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
         android:text="Compartir" />
 
 </LinearLayout>
