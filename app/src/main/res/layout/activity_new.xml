@@ -20,7 +20,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="Texto Prueba"
+        android:text="@string/texto_prueba"
         android:layout_marginBottom="10dp"/>
 
     <TextView
@@ -29,7 +29,7 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:layout_marginBottom="10dp"
-        android:text="Texto Prueba 2" />
+        android:text="@string/texto_prueba_2" />
 
     <TextView
         android:id="@+id/prueba3_text"
@@ -37,7 +37,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="10dp"
         android:gravity="center"
-        android:text="Texto Prueba 3" />
+        android:text="@string/texto_prueba_3" />
 
     <TextView
         android:id="@+id/prueba4_text"
@@ -45,7 +45,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="10dp"
         android:gravity="center"
-        android:text="Texto Prueba 4" />
+        android:text="@string/texto_prueba_4" />
 
 
     <Button
@@ -55,6 +55,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="10dp"
-        android:text="Compartir" />
+        android:text="@string/compartir" />
 
 </LinearLayout>

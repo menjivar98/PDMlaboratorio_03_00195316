@@ -12,7 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="25sp"
-        android:text="Formulario:"
+        android:text="@string/formulario"
         android:gravity="center"
         android:layout_marginBottom="5dp"/>
 
@@ -48,6 +48,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="Submit"/>
+        android:text="@string/submit"/>
 
 </LinearLayout>

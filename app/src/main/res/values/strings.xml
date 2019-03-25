@@ -6,4 +6,13 @@
     <string name="Et_3_password">Password</string>
     <string name="Et_4_gender">Gender</string>
     <string name="encabezado">Datos compartidos en el formulario: </string>
+    <string name="DT_recibidos">Datos recibidos:</string>
+    <string name="DT_quemado">Quemado</string>
+    <string name="texto_prueba">Texto Prueba</string>
+    <string name="texto_prueba_2">Texto Prueba 2</string>
+    <string name="texto_prueba_3">Texto Prueba 3</string>
+    <string name="texto_prueba_4">Texto Prueba 4</string>
+    <string name="compartir">Compartir</string>
+    <string name="formulario">Formulario:</string>
+    <string name="submit">Submit</string>
 </resources>
