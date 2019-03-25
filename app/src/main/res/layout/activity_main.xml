@@ -32,7 +32,7 @@
     <EditText
         android:id="@+id/Et_3"
         android:hint="@string/Et_3_password"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:password="true"/>
 
