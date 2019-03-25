@@ -33,13 +33,21 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                JSON j = new JSON(Et1.getText().toString(), Et2.getText().toString(),Et3.getText().toString(),Et4.getText().toString());
 
-                Datos = j.ImprimirJSON();
+               /* JSON j = new JSON(Et1.getText().toString(), Et2.getText().toString(),Et3.getText().toString(),Et4.getText().toString());
+
+                Datos = j.ImprimirJSON();*/
 
                 Intent m_intent = new Intent(MainActivity.this,NewActivity.class);
-                m_intent.putExtra(AppConstants.TEXT1_KEY,Datos);
+
+
+
+                m_intent.putExtra(AppConstants.TEXT1_KEY,Et1.getText().toString());
+                m_intent.putExtra(AppConstants.TEXT2_KEY,Et2.getText().toString());
+                m_intent.putExtra(AppConstants.TEXT3_KEY,Et3.getText().toString());
+                m_intent.putExtra(AppConstants.TEXT4_KEY,Et4.getText().toString());
                 startActivity(m_intent);
+
 
             }
         });

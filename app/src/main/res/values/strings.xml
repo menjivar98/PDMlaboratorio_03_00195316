@@ -5,4 +5,5 @@
     <string name="Et_2_nombre">Nombre</string>
     <string name="Et_3_password">Password</string>
     <string name="Et_4_gender">Gender</string>
+    <string name="encabezado">Datos compartidos en el formulario: </string>
 </resources>
